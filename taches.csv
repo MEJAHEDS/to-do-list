@@ -1,0 +1,16 @@
+id,description,completed
+1,Faire les courses,false
+2,R�pondre aux e-mails,true
+3,Préparer le dîner,false
+4,Faire du sport,true
+5,Lire un livre,false
+6,Regarder un film,false
+7,Nettoyer la maison,true
+8,Apprendre Angular,false
+9,Écrire du code,false
+10,Faire une pause,true
+11,Planifier la semaine,false
+12,Prendre des notes,true
+13,Assister à une réunion,false
+14,Trouver des idées de projets,false
+15,Se détendre,true

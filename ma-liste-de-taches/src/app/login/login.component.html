@@ -1,0 +1,23 @@
+<div class="center-container">
+  
+  <div class="center-container-parent">
+      <form class="example-form" (submit)="login()">
+        <!-- <mat-form-field> -->
+          <label id="name" for="username">Username:</label>
+          <input MatFormFieldControl type="text" id="username" [(ngModel)]="username" name="username"required />
+        <!-- </mat-form-field>
+        <mat-form-field> -->
+          <label id="code" for="password">Password:</label>
+          <input MatFormFieldControl type="password" id="password" [(ngModel)]="password"  name ="password" required="" />
+          <button mat-raised-button   type="submit">Login</button>
+        <!-- </mat-form-field> -->
+      </form>
+      
+  </div>
+
+
+
+</div>
+
+
+

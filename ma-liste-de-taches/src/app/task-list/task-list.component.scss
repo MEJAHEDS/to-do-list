@@ -1,0 +1,77 @@
+/* task-list.component.css */
+.task-list-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  mat-form-field {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f5f5f5;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Ajout d'une légère ombre pour un effet de profondeur sur les éléments de la liste */
+  li:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  #newTask {
+    background-color: #f5f5f5;
+    margin: 5px 0;
+    padding : 8px 2px 9px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .task-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-item {
+    background-color: #f5f5f5;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+    user-select: none;
+    
+  }
+  
+  .task-item:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+  }
